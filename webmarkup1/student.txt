@@ -1,0 +1,5 @@
+Student name: Nikita Bratus 
+Student number: 736115
+Student class: HAIT24FT1C
+GitHub Repository: https://github.com/SpicyCarry/WebMarkup-Assignment.git
+GitHub Pages URL: https://spicycarry.github.io/WebMarkup-Assignment/

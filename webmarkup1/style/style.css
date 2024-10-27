@@ -1,0 +1,612 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+* {
+  text-decoration: none;
+  font-family: Montserrat;
+}
+/*
+                This is the css for All Pages
+                */
+.navbar {
+  height: 96px;
+  background-color: #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: disc;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 15px;
+  margin-right: 0px;
+  padding-left: 0px;
+  unicode-bidi: isolate;
+  display: flex;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+li {
+  list-style: none;
+}
+li a {
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+  margin-right: 50px;
+  padding-left: 30px;
+  font-variant: all-small-caps;
+}
+
+li a:hover {
+  color: red;
+}
+
+body {
+  margin: 0px;
+  background-color: #fff;
+}
+
+#home .main_section_header {
+  padding-top: 230px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  height: 900px;
+
+  background-image: url(../images/zandfoort.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+  border-color: white;
+  border-style: inherit;
+  border-width: 0em;
+  flex-direction: column;
+}
+
+#summer .main_section_header {
+  padding-top: 230px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  height: 900px;
+
+  background-image: url(../images/stormystormstorm.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+  border-color: white;
+  border-style: inherit;
+  border-width: 0em;
+  flex-direction: column;
+}
+
+#winter .main_section_header {
+  padding-top: 230px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  height: 900px;
+
+  background-image: url(../images/ukraine_sauna.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+  border-color: white;
+  border-style: inherit;
+  border-width: 0em;
+  flex-direction: column;
+}
+
+#winter main > .main_section{
+  background: none;
+}
+#winter main{
+  background-image: url(../images/background_flakes.png);
+}
+
+#autumn .main_section_header {
+  padding-top: 230px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  height: 900px;
+
+  background-image: url(../images/autumn-forest.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+  border-color: white;
+  border-style: inherit;
+  border-width: 0em;
+  flex-direction: column;
+}
+
+#spring .main_section_header {
+  padding-top: 230px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  height: 900px;
+
+  background-image: url(../images/corn\ field\ dark\ version.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+  border-color: white;
+  border-style: inherit;
+  border-width: 0em;
+  flex-direction: column;
+}
+
+h1 {
+  padding-left: 72px;
+}
+
+h2 {
+  letter-spacing: 1px;
+  width: 70vw;
+  margin: auto;
+  color: #fff;
+
+  text-align: left;
+
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132px;
+  font-variant: small-caps;
+
+  text-shadow: 1px 3px 8px rgb(0, 0, 0);
+}
+
+h3 {
+  color: #000;
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+
+h4{
+  letter-spacing: 0px;
+  margin: auto;
+  color: #000;
+
+  text-align: left;
+
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+aside a .logo-simle{
+  display: none;
+}
+.main_p{
+  margin-bottom: 0;
+}
+.p_text{
+  margin-top: 0;
+  text-indent: 5px;
+  word-spacing: normal;
+}
+
+.the_effects {
+  letter-spacing: 2px;
+  width: 70vw;
+  margin: auto;
+
+  color: #fff;
+
+  text-align: left;
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46px;
+  font-variant: all-small-caps;
+
+  text-shadow: 1px 3px 7px rgb(0, 0, 0);
+}
+
+.main_section {
+  margin: auto;
+
+  width: 70vw;
+  place-content: center;
+}
+
+.pictures img {
+  width: 400px;
+  height: 280px;
+  box-shadow: 1px 1px 100px 12px lightblue;
+  object-fit: cover;
+}
+.pictures {
+  display: flex;
+  justify-content: space-between;
+}
+
+article p {
+  color: #000;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.6px;
+}
+
+#home article p::first-letter{
+  font-size: 28px;
+  font-weight: 600;
+  color: #113568;
+}
+
+.text1 {
+  margin-top: 61px;
+}
+.text2 {
+  margin-top: 125px;
+}
+.text3 {
+  margin-top: 126px;
+  margin-bottom: 118px;
+}
+
+footer {
+  background-color: #000;
+}
+
+footer > section {
+  width: 90vw;
+  margin: auto;
+}
+
+.section_contactUs p {
+  color: #fff;
+
+  margin: 0;
+  padding-top: 39.5px;
+  padding-left: 72px;
+  padding-bottom: 99.5px;
+  font-size: 20px;
+
+  font-weight: 500;
+  line-height: 26.4px;
+  font-variant: all-small-caps;
+
+  width: 444px;
+}
+
+.section_contactUs > a {
+  width: 225px;
+  height: 100px;
+
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 100%;
+
+  text-align: center;
+
+  color: #fde587;
+  text-transform: uppercase;
+}
+
+.section_contactUs > a:hover {
+  transition: 0.1s;
+  font-size: 40px;
+  color: #ffd325;
+
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  font-variant: all-small-caps;
+}
+
+.FollowUs {
+  color: #a4a4a4;
+  width: 196px;
+}
+
+.section_contactUs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContactUsForMore li a img:hover {
+  transition: 0.2s;
+  box-shadow: 1px 1px 70px 12px rgb(255, 0, 0);
+}
+
+.hide {
+  color: orange;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.footer-copyright {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: 0;
+  width: 100%;
+}
+
+.logo_footer img{
+  padding-left: 72px;
+  padding-top: 30px;
+}
+
+/*
+  Contact style
+*/
+
+input[type=text], [type=email],[type=tel], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FFA629;
+  box-shadow: #000000 0px 0px 10px 0px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 70px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffb648;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+fieldset aside{
+  margin-bottom: 12px;
+}
+fieldset{
+  background-color: #f2f2f2;
+}
+
+textarea{
+  height: 200px;
+}
+.hide a{
+  color: #FFA629;
+}
+aside a .logo-simle-footer{
+  display: none;
+}
+.cookie-banner span a:link{
+  background-color: #000000;
+}
+
+@media (max-width: 1300px) {
+  .pictures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pictures img{
+    margin-top: 50px;
+  }
+  li a{
+    font-size: 25px;
+    margin-right: 38px;
+    padding-left: 24px;
+  }
+  .ContactUsForMore li a{
+    margin-right: 20px;
+    padding-left: 10px;
+  }
+
+  h1{
+    display: none;
+  }
+  aside a .logo-simle{
+    display: block;
+    padding-left: 72px;
+  }
+}
+@media(max-width: 1023px){
+  .hamburger{
+    display: block;
+    margin-right: 50px;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translate(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translate(-8px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -110%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color:#113568;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item{
+    margin: 16px 0;
+  }
+  .nav-menu.active{
+    margin-top: 20px;
+    left: 0;
+  }
+  .nav-menu{
+    margin: 0;
+  }
+  .FollowUs{
+    display: none;
+  }
+  footer .hide{
+    font-size: 14px;
+  }
+
+  @media (max-width: 768px) {
+    h2{
+      font-size: 46px;
+    }
+    .the_effects{
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      line-height: 25px;
+    }
+    #home .main_section_header{
+      padding-top: 120px;
+    }
+    footer .section_contactUs .contact{
+      display: none;
+    }
+    .ContactUsForMore li a{
+      margin-right: 15px;
+      padding-left: 5px;
+    }
+    h1{
+      display: none;
+    }
+    aside a .logo-simle{
+      display: block;
+      padding-left: 72px;
+    }
+
+    footer .logo_footer{
+      display: none;
+    }
+    aside a .logo-simle-footer{
+      display: block;
+      padding-left: 72px;
+      padding-top: 30px;
+    }
+    .pictures img{
+      width: 300px;
+      height: 200px;
+    }
+    .section_contactUs p{
+      font-size: 14px;
+    }
+    footer .hide{
+      font-size: 10px
+    }
+  }
+}
+@media (max-width: 550px){
+  aside a .logo-simle-footer{
+    padding-left: 30px;
+  }
+  .section_contactUs p{
+    padding-left: 30px;
+  }
+  h2{
+    font-size: 34px;
+    line-height: 60px;
+  }
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    z-index: 9999;
+}
+
+.cookie-banner a {
+    color: #ffb648;
+    text-decoration: underline;
+}
+
+.cookie-banner p {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+/* Hide the checkbox */
+.hide-banner-checkbox {
+    display: none;
+}
+
+/* Only show the banner if the checkbox is not checked */
+.cookie-banner:has(.hide-banner-checkbox:checked) {
+    display: none;
+}
+
+.cookie-button {
+    background-color: #ffb648;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    display: inline-block;
+}
